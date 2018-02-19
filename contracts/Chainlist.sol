@@ -1,4 +1,4 @@
-pragma solidity ^0.4.18
+pragma solidity ^0.4.18;
 
 contract ChainList {
   address seller;
@@ -13,10 +13,10 @@ contract ChainList {
     price = _price;
   }
 
-  function getArticle() public view return (address _seller,
+  function getArticle() public view returns (address _seller,
                                             string _name,
                                             string _description,
                                             uint256 _price) {
-    return(seller, name, descrption, price)
+    return(seller, name, description, price);
   }
 }
